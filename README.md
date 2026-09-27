@@ -3,3 +3,6 @@
 3. What is poetry
 4. Different filesin the core app
 5. Different files in the the django apps
+
+=> Keep Installed apps and External apps as separate
+=> Views is for core logic and urls.py is for managing routing

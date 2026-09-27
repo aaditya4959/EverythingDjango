@@ -6,3 +6,4 @@
 
 => Keep Installed apps and External apps as separate
 => Views is for core logic and urls.py is for managing routing
+=> Context : used  for populating the date from the data source to the actual template

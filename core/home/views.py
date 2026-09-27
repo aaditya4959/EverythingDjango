@@ -5,7 +5,13 @@ from django.http import HttpResponse
 # Create your views here.
 
 def home(request):
-    return render(request, "index.html")
+    people = [
+        {"name": "John", "age": 20},
+        {"name": "Jane", "age": 21},
+        {"name": "Jim", "age": 22},
+        {"name": "Jill", "age": 23}
+    ]
+    return render(request, "index.html", context = {"people": people})
 
 
 def success_page(request):
